@@ -130,7 +130,7 @@ pub fn main() !void {
 
         // iterate trough the tiles array, and check 1 by 1 if the tile is alive,
         // if it is, proceed, and check if the ball collides with the current tile
-        // if it does, proceed and make the bounce false, and the current tile will no longer be alive
+        // if it does, proceed and make the ball bounce, and the current tile will no longer be alive
         for (&tiles) |*current_tile| {
             if (current_tile.alive) {
                 if (ball.collidesWidth(current_tile)) {
