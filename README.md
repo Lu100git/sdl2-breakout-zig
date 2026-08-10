@@ -12,7 +12,7 @@ I was tinkling of using textures at first, but I went for simple shapes instead 
 And the main reason why I didn't when with further SDL libraries, I will rather wait 
 for Zig ver 1.0
 
-you don;t need to do much to compile this project, just make sure to install SDL2 on your machine
+you don't need to do much to compile this project, just make sure to install SDL2 on your machine
 then run: 
 zig build run 
 and you should be good to go
