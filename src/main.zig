@@ -24,7 +24,7 @@ pub fn main() !void {
 
     // iterate trough each tile in the array
     // and based on the nested for loops asign and x and y
-    // along with a color from the colors array in App.zig each row will be a different color
+    // along with a color from the colors array in colors.zig each row will be a different color
     var counter: u32 = 0;
     for (0..rows) |i| {
         for (0..columns) |j| {
